@@ -1,0 +1,276 @@
+
+
+#mainNav {
+  background-color: #00796B;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: 700;
+  font-family: 'Montserrat';
+}
+
+#mainNav .navbar-brand {
+  font-family: 'Nerko One';
+  font-size: 40px;
+  color: #fff;
+}
+
+#mainNav .navbar-nav {
+  margin-top: 1rem;
+  letter-spacing: 0.0625rem;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link {
+  color: #fff;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+  color: #FFA000;
+}
+
+
+
+#mainNav .navbar-toggler {
+color: #fff;
+border: none;
+  font-size: 80%;
+  padding: 0.8rem;
+}
+
+#mainNav .navbar-toggler:hover{
+  color:#FFA000;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    
+  }
+
+  #mainNav .navbar-brand {
+    font-size: 40px;
+    -webkit-transition: font-size 0.3s;
+    transition: font-size 0.3s;
+  }
+  #mainNav .navbar-nav {
+    margin-top: 0;
+  }
+
+  #mainNav.navbar-shrink {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.5em;
+  }
+
+ 
+}
+
+
+header.masthead {
+    padding-top: calc(6rem + 72px);
+    padding-bottom: 6rem;
+    background-color: #009688;
+  }
+  
+  header.masthead h1 {
+    font-family: 'Nerko One';
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  
+  header.masthead h2 {
+    font-family: 'Montserrat';
+    font-size: 1.3rem;
+  }
+  
+  @media (min-width: 992px) {
+    header.masthead {
+      padding-top: calc(6rem + 106px);
+      padding-bottom: 6rem;
+    }
+    header.masthead h1 {
+      font-size:3rem;;
+      line-height: 4rem;
+    }
+    header.masthead h2 {
+      font-size: 1.75em;
+    }
+  }
+
+
+  .modal-titel{
+    
+    text-align: center;
+   padding-left:30px;
+  }
+
+
+#portfolioLink{
+  font-family: 'Montserrat';
+  color:#FFA000;
+}
+
+.portfolio {
+  margin-bottom: -15px;
+}
+
+#portfolio h2{
+  font-family: 'Nerko One'; 
+  padding-top: 50px;
+  font-size: 3rem;
+}
+
+.portfolio .portfolio-item {
+  position: relative;
+  display: block;
+  max-width: 25rem;
+  margin-bottom: 15px;
+}
+.portfolio .portfolio-item .portfolio-item-caption {
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  opacity: 0;
+  background-color: #FFA000;
+}
+.portfolio .portfolio-item .portfolio-item-caption:hover {
+  opacity: 1;
+}
+
+#portfolioLink{
+  font-size: 20px;
+}
+
+#exampleModalLabel{
+  margin-top: -35px;
+}
+
+#modalHeader{
+  padding-bottom: 10px;
+  border-style: none;
+}
+
+
+#about{
+  background-color:#009688; 
+}
+
+section {
+  padding: 6rem 0;
+}
+
+section h2 {
+  font-family: 'Nerko One'; 
+  font-size: 3rem;
+  line-height: 2rem;
+}
+
+.lead{
+  font-family: 'Montserrat';
+}
+
+
+/* FONTAWESOME ICONS */
+
+hr.gem-light,
+hr.gem-dark {
+  max-width: 15rem;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 0.25rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr.gem-light:after,
+hr.gem-dark:after {
+  position: relative;
+  top: -.8em;
+  display: inline-block;
+  padding: 0 0.25em;
+  content: '\f3a5';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 2em;
+}
+
+hr.gem-light {
+  border-color: white
+}
+
+hr.gem-light:after {
+  color: #fff;
+  background-color:#009688;
+}
+
+hr.gem-dark {
+  border-color: #2C3E50;
+}
+
+hr.gem-dark:after {
+  color: #2C3E50;
+  background-color: white;
+}
+
+
+
+
+
+.footer {
+  font-family: 'Montserrat';
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #00796B;
+  color: #fff;
+}
+
+.copyright {
+  font-family: 'Nerko One'; 
+  font-size: 20px;
+  background-color: #009688; 
+}
+
+
+
+#sendMessageButton{
+  font-family: 'Montserrat';
+  background-color: #FFA000;
+  color:white;
+ 
+}
+
+#sendMessageButton:hover{
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  opacity: 0;
+  background-color: #FFC107;
+  opacity: 1;
+}
+
+.floating-label-form-group {
+  position: relative;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.floating-label-form-group input,
+.floating-label-form-group textarea {
+  font-family: 'Montserrat';
+  font-size: 1.5em;
+  position: relative;
+  z-index: 1;
+  padding-right: 0;
+  padding-left: 0;
+  resize: none;
+  border: none;
+  border-radius: 0;
+  background: none;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
